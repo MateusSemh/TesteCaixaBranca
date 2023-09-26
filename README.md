@@ -9,6 +9,6 @@ Falta de espaço antes da palavra-chave "where":
 Nas linhas em que a consulta SQL é montada (sql += "where login= " + "'" + login + "'";), faltava um espaço antes de "where...".
 
 3- Erro na linha 27: sql += " and senha = " + "'" + senha + "';";
-O ponto e vírgula dentro da consulta ("';"), não deveria existir.
+O ponto e vírgula dentro da consulta ("';"), não deveria existir e ainda poderia ser feito todo junto, da linha 25 até a 27
 
 
