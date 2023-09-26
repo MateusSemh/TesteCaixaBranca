@@ -1,12 +1,14 @@
 # TesteCaixaBranca
 
-Foram encontrados 2 erros:
+Foram encontrados 3 erros:
 
-1- Erro na linha 12:
-O código Class.forName("com.mysql.Driver.Manager").newInstance(); está incorreto. O nome correto da classe do driver do MySQL é "com.mysql.cj.jdbc.Driver".
+1- Falta de documentação no código, há somente um comentário no código todo ("// INSTRUÇÃO SQL") e também o código não tem nenhuma separação, está todo junto e fica ruim de intepretá-lo.
 
 2- Erro na linha 24:
-Falta de espaço após a palavra-chave "where":
-Nas linhas em que a consulta SQL é montada (sql += " where login= " + "'" + login + "'";), faltava um espaço antes de "where".
+Falta de espaço antes da palavra-chave "where":
+Nas linhas em que a consulta SQL é montada (sql += "where login= " + "'" + login + "'";), faltava um espaço antes de "where...".
 
-Refiz o código e corrigi os erros apontados no código novo.
+3- Erro na linha 27: sql += " and senha = " + "'" + senha + "';";
+O ponto e vírgula dentro da consulta ("';"), não deveria existir.
+
+
