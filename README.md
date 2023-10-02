@@ -12,3 +12,6 @@ Nas linhas em que a consulta SQL é montada (sql += "where login= " + "'" + logi
 O ponto e vírgula dentro da consulta ("';"), não deveria existir e ainda poderia ser feito todo junto, da linha 25 até a 27
 
 
+## Grafo
+
+![image](https://github.com/MateusSemh/TesteCaixaBranca/assets/103202120/57103608-d07b-4af8-8e7a-9f57872e6aec)
