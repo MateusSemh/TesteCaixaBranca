@@ -14,6 +14,10 @@ O ponto e vírgula dentro da consulta ("';"), não deveria existir e ainda poder
 
 ## Grafo
 
+![image](https://github.com/MateusSemh/TesteCaixaBranca/assets/103202120/da948bfa-5690-45e1-8ddd-95f80f9e143f)
+
+# Fluxograma
+
 ![image](https://github.com/MateusSemh/TesteCaixaBranca/assets/103202120/57103608-d07b-4af8-8e7a-9f57872e6aec)
 
 
