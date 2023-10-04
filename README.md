@@ -23,11 +23,11 @@ O ponto e vírgula dentro da consulta ("';"), não deveria existir e ainda poder
 
  ## Complexidade ciclomática
 
- São 14 arestas
+ São 12 arestas
  11 nós
 
  Aplicando a fórmula: Complexidade ciclomática = Arestas – Nós +2
- A complexidade é de 5.
+ A complexidade é de 4.
 
 
  ## Sequências
