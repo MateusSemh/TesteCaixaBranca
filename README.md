@@ -1,40 +1,19 @@
-# TesteCaixaBranca
+# Autenticação de Usuários
 
-Foram encontrados 3 erros:
+Este repositório contém um código Java para autenticar usuários em um sistema utilizando um banco de dados MySQL.
 
-1- Falta de documentação no código, há somente um comentário no código todo ("// INSTRUÇÃO SQL") e também o código não tem nenhuma separação, está todo junto e fica ruim de intepretá-lo.
+# Funcionalidades
 
-2- Erro na linha 24:
-Falta de espaço antes da palavra-chave "where":
-Nas linhas em que a consulta SQL é montada (sql += "where login= " + "'" + login + "'";), faltava um espaço antes de "where...".
+Conexão com o Banco de Dados: O código inclui um método para estabelecer uma conexão com o banco de dados MySQL.
 
-3- Erro na linha 27: sql += " and senha = " + "'" + senha + "';";
-O ponto e vírgula dentro da consulta ("';"), não deveria existir e ainda poderia ser feito todo junto, da linha 25 até a 27
+Verificação de Usuário: Há um método que verifica se um usuário com um login e senha fornecidos existe no banco de dados. Se o usuário for encontrado, a variável result é marcada como verdadeira e o nome do usuário é armazenado na variável nome.
 
+# Utilização
 
-## Grafo
+Certifique-se de ter o MySQL instalado e configurado em seu ambiente.
 
-![image](https://github.com/MateusSemh/TesteCaixaBranca/assets/103202120/da948bfa-5690-45e1-8ddd-95f80f9e143f)
+Modifique a string de conexão no método conectarBD() para refletir suas credenciais de banco de dados.
 
-# Fluxograma
+Compile e execute o código.
 
-![image](https://github.com/MateusSemh/TesteCaixaBranca/assets/103202120/57103608-d07b-4af8-8e7a-9f57872e6aec)
-
-
- ## Complexidade ciclomática
-
- São 12 arestas
- 11 nós
-
- Aplicando a fórmula: Complexidade ciclomática = Arestas – Nós +2
- A complexidade é de 4.
-
-
- ## Sequências
-
- 1;2;3
- 1;2;4;5;6;7;9
- 1;2;4;5;6;7;8;10;11
- 
-
- 
+Use o método verificarUsuario(String login, String senha) para verificar a autenticação do usuário.
